@@ -59,7 +59,49 @@ public class MergeSort
   }
   System.out.println();
   }
-  
 }
 
 OUTPUT:2 3 4 7 9
+
+
+
+
+2. QUICK SORT
+
+public class QuickSort()
+{
+  public sattic int partition(int arr[], int low, int high)
+  {
+    int pivot=arr[high];
+    int i=low-1;
+    
+    for(j=low;j<high; j++)
+    {
+     if(arr[i]<pivot)
+     {
+      i++;
+      int temp=int[i];
+      int [i]=int [j];
+      int [j]=temp;
+      }
+    }
+  }
+
+  public static void quickSort(int arr[], int low, int high)
+  {
+    if(low < high)
+    {
+       int pidx=partition(arr, low, high);
+       quickSort(arr, low, pidx-1);
+       quickSort(arr, pidx+1, high);
+    }
+  }
+  public static void main(String args[])
+  {
+    int arr[]={3, 8, 1, 7, 4};
+    int n= arr.length;
+    
+  
+  }
+
+}
