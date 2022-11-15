@@ -1,7 +1,7 @@
 # Sorting-Algorithms
 //Different sorting algorithms with there programs in java.
-1. MERGE SORT(This algorithm uses divide and conquer rule. In this large problems are divided in smallest possible problems and solved seperately. Then this sorted elements are merged, hence Merge sort)
-Time Complexity:n log n
+/*1. MERGE SORT(This algorithm uses divide and conquer rule. In this large problems are divided in smallest possible problems and solved seperately. Then this sorted elements are merged, hence Merge sort)
+Time Complexity:n log n*/
 public class MergeSort
 {
   public static void conquer(int arr[], int si, int mid, int ei)
@@ -70,7 +70,7 @@ OUTPUT:2 3 4 7 9
 
 public class QuickSort()
 {
-  public sattic int partition(int arr[], int low, int high)
+  public static int partition(int arr[], int low, int high)
   {
     int pivot=arr[high];
     int i=low-1;
